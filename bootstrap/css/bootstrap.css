@@ -3420,12 +3420,12 @@ fieldset:disabled .btn {
 }
 
 .btn-light {
-	--bs-btn-color: #000;
-	--bs-btn-bg: #f8f9fa;
+	--bs-btn-color:#c3c5cc;
+	--bs-btn-bg: #24252A;
 	--bs-btn-border-color: #f8f9fa;
-	--bs-btn-hover-color: #000;
-	--bs-btn-hover-bg: #f9fafb;
-	--bs-btn-hover-border-color: #f9fafb;
+	--bs-btn-hover-color: #24252A;
+	--bs-btn-hover-bg: rgba(74, 248, 196, 0.76);
+	/* --bs-btn-hover-border-color: #f9fafb; */
 	--bs-btn-focus-shadow-rgb: 211, 212, 213;
 	--bs-btn-active-color: #000;
 	--bs-btn-active-bg: #f9fafb;
@@ -12822,9 +12822,42 @@ button.navbar-toggler {
 	margin-left: 18px;
 }
 
+.post-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+	padding: 0 auto;
+}
 .main-content-post p {
 	margin-top: 20px;
 	text-align: center;
+}
+
+.card-post {
+	border: 1px solid #c3c5cc;
+	box-shadow: 1px 1px 6px rgba(74, 248, 196, 0.76);
+	border-radius: 10px;
+	background-color: #1f2024;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	overflow: hidden;
+	margin: 10px;
+	width: 45%;
+}
+
+.card-post .thumbnail {
+	width: 100%;
+}
+
+
+
+.card-post .content {
+	text-align: center;
+	padding-bottom: 20px;
+
 }
 
 /* anime */
@@ -12861,7 +12894,6 @@ button.navbar-toggler {
 	overflow: hidden;
 	margin: 10px;
 	width: 40%;
-	display: flex;
 }
 
 .card .thumbnail {
@@ -12904,8 +12936,7 @@ button.navbar-toggler {
 	padding: 0 auto;
 
 }
-/* social media */
-/* ============================================================================================= */
+
 
 
 
@@ -12943,6 +12974,15 @@ button.navbar-toggler {
 	.card{
 		width: 30%;
 		
+	}
+	.card-post{
+		width: 30%;
+	}
+	.post-content {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		margin-left: 16px;
 	}
 
 }
