@@ -4302,6 +4302,7 @@ fieldset:disabled .btn {
 	align-items: center;
 	justify-content: space-between;
 	background-color: #1f2024;
+	z-index: 999999999999999999;
 }
 
 .navbar-brand {
@@ -12849,9 +12850,10 @@ button.navbar-toggler {
 }
 
 .card {
-	border: 1px solid #c3c5cc;
+	background-color: #1f2024;
+	border: 2px solid #c3c5cc;
+	box-shadow: 1px 1px 6px rgba(74, 248, 196, 0.76);
 	border-radius: 10px;
-	background-color: #212529;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -12871,9 +12873,13 @@ button.navbar-toggler {
 	width: 100%;
 }
 
-.card .content {
+.card .content p{
 	text-align: center;
 	padding-bottom: 20px;
+	color: #c3c5cc;
+
+
+	
 
 }
 
