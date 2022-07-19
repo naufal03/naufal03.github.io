@@ -12773,8 +12773,8 @@ button.navbar-toggler {
 .img-header img {
 	display: block;
 	margin: auto;
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 }
 
 /* content home */
@@ -12813,13 +12813,11 @@ button.navbar-toggler {
 
 /* content post */
 /* ============================================================================================= */
-.title {
-	border-bottom: 3px #c3c5cc solid;
-}
 
-.title h4 {
+
+.title-post h4 {
 	margin-bottom: 15px;
-	margin-left: 18px;
+	margin-left: 24px;
 }
 
 .post-content {
@@ -12835,21 +12833,28 @@ button.navbar-toggler {
 }
 
 .card-post {
-	border: 1px solid #c3c5cc;
 	box-shadow: 1px 1px 6px rgba(74, 248, 196, 0.76);
-	border-radius: 10px;
-	background-color: #1f2024;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
+	border-radius: 5px;
 	overflow: hidden;
 	margin: 10px;
-	width: 45%;
+	width: 65%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 
-.card-post .thumbnail {
+a{
+	text-decoration: none;
+
+}
+
+.card-post .thumbnail-post {
 	width: 100%;
+}
+.thumbnail-post img{
+	width: 100%;
+
 }
 
 
@@ -12868,10 +12873,6 @@ button.navbar-toggler {
 	text-align: center;
 }
 
-.title h4 {
-	margin-bottom: 15px;
-	margin-left: 18px;
-}
 
 .anime-content {
 	display: flex;
@@ -12884,7 +12885,6 @@ button.navbar-toggler {
 
 .card {
 	background-color: #1f2024;
-	border: 2px solid #c3c5cc;
 	box-shadow: 1px 1px 6px rgba(74, 248, 196, 0.76);
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -12948,10 +12948,7 @@ button.navbar-toggler {
 		margin-left: 10px;
 	}
 
-	.title h4 {
 
-		margin-left: 0;
-	}
 
 	.bio table {
 		margin: 0;
@@ -12975,8 +12972,9 @@ button.navbar-toggler {
 		width: 30%;
 		
 	}
+	
 	.card-post{
-		width: 30%;
+		width:45%;
 	}
 	.post-content {
 		flex-wrap: wrap;
